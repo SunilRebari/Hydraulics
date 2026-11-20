@@ -1,0 +1,2 @@
+import React from 'react';import {Link} from 'react-router-dom';
+export default function NotFoundPage(){return <section className="section"><div className="container not-found"><span className="eyebrow">Page not found</span><h1>We couldn’t find that page.</h1><p>Return to the homepage or browse our product catalogue.</p><div><Link className="button" to="/">Go home</Link><Link className="button button-outline" to="/products.html">View products</Link></div></div></section>}
